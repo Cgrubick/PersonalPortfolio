@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/Home.css"
 
-import {Link } from 'react-router-dom';
+
 
 function Home() {
   return (
@@ -11,9 +11,13 @@ function Home() {
         </div>
         <div className="blurb">
             <h2>About me</h2>
-            <p> I am a Computer and Electrical Engineering Student at West Virginia University. <br/>I also am minoring in Computer Science and I am currently a senior planning to graduate in December 2023. <br/> 
-            Feel free to read more about me in the about me page!</p>
-            <button><Link to = "/aboutme">About</Link></button>
+            <p> I am a Computer and Electrical Engineering student at West Virginia University. <br/>I am also minoring in Computer Science. I am a senior planning to graduate in December 2023. <br/> 
+            Feel free to read more about me in the about me page!
+            <br/>
+            <br/>
+                <a className="button button-slide" href="/aboutme">Learn more</a>
+            </p>
+            
 
         </div>
         <div className="skills">

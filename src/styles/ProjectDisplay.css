@@ -1,6 +1,6 @@
 .project {
     width: 100%;
-    height: calc(100vh - 100px);
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
   .project h1 {
     margin-top: 50px;
     color: #3e497a;
-    font-size: 35px;
+    font-size: 25px;
   }
   .project img {
     width: 700px;
@@ -18,7 +18,7 @@
   }
   
   .project p {
-    font-size: 40px;
+    font-size: 30px;
     color: #3e497a;
   }
   
@@ -26,3 +26,14 @@
     font-size: 60px;
     color: #3e497a;
   }
+
+  .container {
+    width: 200px;
+    height: 120px;
+}
+
+/* Resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}

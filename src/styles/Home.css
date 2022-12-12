@@ -7,26 +7,45 @@
   
   .about {
     width: 100%;
-    height: calc(40vh - 40px);
+    height: calc(30vh - 30px);
     display: flex;
     flex-direction: column;
     justify-content: top;
     align-items: top;
     text-align: top;
-    background-color: #3e497a;
+    background-color: #EAAA00;
     color: #f0f0f0;
   }
   .blurb {
     width: 100%;
     font-size: 25px;
-    color: #000000;
+    color: #3e497a;
   }
   
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 60px;
-    color: #e9d35b;
+    color: #21325e;
     height: 50px;
+  }
+
+  .button{
+    background: none;
+    border: 2px solid;
+    padding: 0.5em 1em;
+    transition: 0.35s;
+    text-decoration: none;
+    border-radius: 5%;
+
+  }
+  .button-slide{
+    color:#3e497a;
+    font-weight: bold;
+  }
+  .button-slide:hover, .button-slide:focus{
+    border-color:#57649c;
+    color:#EAAA00;
+    box-shadow: inset 10em 0 0 0 #3e497a;
   }
   
   .about .prompt {

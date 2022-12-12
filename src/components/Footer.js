@@ -20,7 +20,7 @@ function Footer() {
         </div>
      
         <p> (304)224-8829</p>
-        <p> &copy; ClaytonGrubick.com</p>
+        <p> &copy; claytongrubick.com</p>
     </div>
   )
 }
