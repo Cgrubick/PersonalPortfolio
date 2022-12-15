@@ -1,5 +1,6 @@
 import React from 'react';
 import "../styles/Home.css"
+import Link from '@material-ui/core/Link';
 
 
 
@@ -15,7 +16,7 @@ function Home() {
             Feel free to read more about me in the about me page!
             <br/>
             <br/>
-                <a className="button button-slide" href="/aboutme">Learn more</a>
+            <Link className="button button-slide" href="/aboutme">Learn more</Link>
             </p>
             
 

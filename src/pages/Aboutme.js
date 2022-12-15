@@ -1,5 +1,7 @@
 import React from 'react';
 import "../styles/Aboutme.css"
+import Link from '@material-ui/core/Link';
+
 function Aboutme() {
   return (
     <div className="description"> 
@@ -9,7 +11,7 @@ function Aboutme() {
             Feel free to read more about me in the about me page!
             <br/>
             <br/>
-        <a className="button button-slide" href="/projects" target="_blank">Projects</a>
+        <Link className="button button-slide" href="/projects" >Projects</Link>
      </p>
     <br/>
     <br/><br/>
