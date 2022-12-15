@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/Home.css"
-import Link from '@material-ui/core/Link';
+import {Link} from 'react-router-dom';
 
 
 
@@ -16,7 +16,7 @@ function Home() {
             Feel free to read more about me in the about me page!
             <br/>
             <br/>
-            <Link className="button button-slide" href="/aboutme">Learn more</Link>
+            <Link to="/aboutme" className="button button-slide" >Learn more</Link>
             </p>
             
 
