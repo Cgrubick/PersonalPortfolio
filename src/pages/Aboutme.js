@@ -9,12 +9,12 @@ function Aboutme() {
             Feel free to read more about me in the about me page!
             <br/>
             <br/>
-        <a className="button button-slide" href="/projects">Projects</a>
+        <a className="button button-slide" href="/projects" target="_blank">Projects</a>
      </p>
     <br/>
     <br/><br/>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-</div>
+        </div>
     </div>
     
   )
