@@ -16,9 +16,6 @@ function Footer() {
                 <LinkedInIcon /> 
             </Link>
             
-            <Link   href="https://www.linkedin.com/in/clayton-grubick-2a5206188/overlay/1635506138126/single-media-viewer/" >
-                <DescriptionIcon /> 
-            </Link>
         </div>
         <p> (304)224-8829</p>
         <p> &copy; claytongrubick.com</p>
