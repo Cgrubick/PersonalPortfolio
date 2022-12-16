@@ -1,5 +1,5 @@
 .footer {
-  
+ 
     width: 100%;
     height: 200px;
     background: #21325e;
@@ -14,6 +14,8 @@
   
   .socialMedia svg {
     color: white;
+    
+    flex-direction: column;
     margin: 20px;
     font-size: 70px;
     cursor: pointer;

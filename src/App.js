@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
 function App() {
   return (
-    <div className="page-continer">
+    <div className="page-container">
     <div className="content-wrap">
     <div className="App"> 
       <Router>
@@ -22,11 +22,12 @@ function App() {
           <Route path = "/experience" element = {<Experience />} />
           <Route path = "/aboutme" element = {<AboutMe />} />
         </Routes>
-        <Footer/>
+        
         
       </Router>
     </div>
     </div>
+    <Footer/>
     </div>
   );
 }

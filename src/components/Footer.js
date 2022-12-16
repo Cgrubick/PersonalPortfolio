@@ -3,22 +3,23 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import "../styles/Footer.css"
 import Link from '@material-ui/core/Link';
+import DescriptionIcon from '@mui/icons-material/Description';
 
 function Footer() {
   return (
     <div className="footer">
         <div className="socialMedia">
-            
-            
             <Link href="https://github.com/Cgrubick"  >
-                <GitHubIcon/>
+                <GitHubIcon/> 
             </Link>
             <Link   href="https://linkedin.com/in/clayton-grubick-2a5206188">
-                <LinkedInIcon />
+                <LinkedInIcon /> 
             </Link>
             
+            <Link   href="https://www.linkedin.com/in/clayton-grubick-2a5206188/overlay/1635506138126/single-media-viewer/" >
+                <DescriptionIcon /> 
+            </Link>
         </div>
-     
         <p> (304)224-8829</p>
         <p> &copy; claytongrubick.com</p>
     </div>
