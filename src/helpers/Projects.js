@@ -9,7 +9,7 @@ export const ProjectList = [
         image2: MPXView,
         skills: "C, Git, GDB Debugger",
         link: "https://github.com/Cgrubick/SImple-OS",
-        description: "This semester long project consisted of creating a from-scratch operating system with a basic kernel. This project consisted of making a variety of OS functions such as creating a basic CLI. Creating infrastructure for process management. Creating functions for basic memory management, as well as allowing the OS to interleave process execution. For a detailed look at my code checkout my Github!"
+        description: "This semester long project consisted of creating a from-scratch operating system with a basic kernel. The OS was a basic CLI this consisted of creating infrastructure for process management,c reating functions for basic memory management, as well as allowing the OS to interleave process execution. For a detailed look at my code check out my Github!"
     },
     {
         name: 'Two Bit Adder Circuit',
