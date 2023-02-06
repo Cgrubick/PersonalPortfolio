@@ -1,6 +1,7 @@
 import MPXLogo from '../assets/project_images/mpx/mpxlog.png';
 import TwoBitAdder from '../assets/project_images/2bitadder/2bitcircuit.png';
 import MPXView from "../assets/project_images/mpx/mpxstart.png";
+import SRPic from "../assets/project_images/SRPic/sr.png";
 
 export const ProjectList = [
     {
@@ -17,6 +18,13 @@ export const ProjectList = [
         skills: "Breadboarding, LTSpice",
         link: "https://github.com/Cgrubick/2BitAdder",
         description: "This adder circuit was part of a larger final project in EE 252, in which we had to design a basic calculator which could add,subtract, decrement and increment. In order to do this I first worked on creating a LTSpice diagram for a basic two bit adder. After creating the schematic I created a basic truth table of the circuit to check that it correctly added. Once this was done I used a variety of logic gate IC's to assemble this to a breadboard."
+    }
+    {
+        name: 'Special Relativity in Rust',
+        image: SRPic,
+        skills: "Rust, Unit Testing, Modern Physics",
+        link: "https://github.com/Cgrubick/SpecialRelativityRust",
+        description: "A little project I put together to better understand time dilation and Special Relativity for my Modern Physics class."
     }
     
 
