@@ -3,7 +3,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import "../styles/Footer.css"
 import Link from '@material-ui/core/Link';
-import DescriptionIcon from '@mui/icons-material/Description';
 
 function Footer() {
   return (
