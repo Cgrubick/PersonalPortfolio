@@ -30,7 +30,7 @@ function Home() {
                 </li>
                 <li className="item">
                     <h2>Languages</h2>
-                    <span>C, Java, Python, Assembly(x86), HTML, CSS, React, Angular, Matlab, Javascript, C++, C#</span>
+                    <span>C, Java, Python, Assembly(x86), HTML, CSS, React, Angular, Matlab, Javascript, C++, Rust</span>
                 </li>
             </ol>
         </div>
